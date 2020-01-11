@@ -2,12 +2,13 @@ import React from 'react';
 import Homepage from './components/homepage/index.jsx'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-        <Homepage/>
-    </div>
-  );
-}
+export default class App extends React.Component{
 
-export default App;
+  render(){
+    return <div>
+      <Homepage/>
+    </div>
+  
+
+  }
+}
